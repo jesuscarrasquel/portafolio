@@ -20,7 +20,7 @@ const Title = styled.h1`
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin-bottom: 0px;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         font-size: 30px;
     }
 `
@@ -30,7 +30,7 @@ const SubTitle = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-top: 0px;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         font-size: 11px;
     }
 `
@@ -39,7 +39,7 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
     border-radius: 50%;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         margin-top: 10px;
         height: 100px;;
     }

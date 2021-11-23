@@ -30,7 +30,7 @@ const Title = styled.h2`
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         font-size: 20px;
     }
 `

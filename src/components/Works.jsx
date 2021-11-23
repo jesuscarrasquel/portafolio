@@ -25,7 +25,7 @@ const Title = styled.h2`
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0px;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         font-size: 20px;
     }
 `
@@ -34,7 +34,7 @@ const Subtitle = styled.p`
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     margin-top : 0px;
-    @media (max-width: 320px) {
+    @media (max-width: 600px) {
         font-size: 13px;
     }
 `
