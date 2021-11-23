@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Img src={LogoPortafolio}/>
                 </Left>
                 <Right>
-                    <Anchor href={CV} target="_blank">Curriculum</Anchor>
+                    <Anchor href={CV} target="_blank">Hoja de vida</Anchor>
                 </Right>
             </Wrapper>
         </Container>
