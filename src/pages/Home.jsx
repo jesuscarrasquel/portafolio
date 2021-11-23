@@ -17,7 +17,7 @@ const Home = () => {
             <Portada />
             <Biography />
             <Works />
-            <Footer />
+            {/* <Footer /> */}
         </Container>
     )
 }

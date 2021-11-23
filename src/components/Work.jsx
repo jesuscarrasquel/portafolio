@@ -12,9 +12,10 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 250px;
+    min-width: 200px;
     min-height: 150px;
     background-image: ${props => props.bg};
+    width: 100%;
 
 `
 const Wrapper = styled.div`
@@ -29,6 +30,9 @@ const Title = styled.h2`
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    @media (max-width: 320px) {
+        font-size: 20px;
+    }
 `
 const Anchor = styled.a`
     text-decoration: none;

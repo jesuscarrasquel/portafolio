@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
     display: flex;
+    width: 100%;
 `
 
 const Logo = styled.h1``
@@ -41,6 +42,9 @@ const Center = styled.div`
 
 const Title = styled.h3`
     margin-bottom: 30px;
+    @media (max-width: 320px) {
+        font-size: 16px;
+    }
 `
 
 // const List = styled.ul`

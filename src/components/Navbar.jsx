@@ -21,7 +21,9 @@ const Left = styled.div`
 `
 
 const Img = styled.img`
-
+    @media (max-width: 320px) {
+        height: 100px;
+    }
 `
 
 const Right = styled.div``

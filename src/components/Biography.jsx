@@ -18,18 +18,27 @@ const Wrapper = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
+    @media (max-width: 320px) {
+        width: 80%;
+    }
 `
 
 const Title = styled.h2`
     font-size: 40px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    @media (max-width: 320px) {
+        font-size: 20px;
+    }
 `
 
 const SubTitle = styled.p`
     font-size: 20px;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
+    @media (max-width: 320px) {
+        font-size: 13px;
+    }
 
 `
 
