@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import LogoPortafolio from '../assets/img/logo-portafolio.png'
-import CV from '../assets/documents/jesuscarrasquel.pdf'
+import CV from '../assets/documents/jesuscarrasquel-dev.pdf'
 
 const Container = styled.div`
     height: 60px;
