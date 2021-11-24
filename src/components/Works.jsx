@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
 `
 
 const Title = styled.h2`

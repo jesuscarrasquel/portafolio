@@ -29,7 +29,7 @@ export const projects = [
         id:5,
         title:'CARJOCOL',
         url:'https://carjocol.com/',
-        bg: 'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);'
+        bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%);'
 
     },
     {
