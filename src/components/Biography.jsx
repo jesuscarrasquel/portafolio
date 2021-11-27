@@ -27,6 +27,7 @@ const Title = styled.h2`
     font-size: 40px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
     @media (max-width: 600px) {
         font-size: 20px;
     }
@@ -36,6 +37,7 @@ const SubTitle = styled.p`
     font-size: 20px;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
     @media (max-width: 600px) {
         font-size: 13px;
     }

@@ -16,6 +16,7 @@ const Container = styled.div`
     min-height: 150px;
     background-image: ${props => props.bg};
     width: 100%;
+    border: none;
 
 `
 const Wrapper = styled.div`
